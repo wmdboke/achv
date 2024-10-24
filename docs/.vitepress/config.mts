@@ -43,7 +43,7 @@ export default defineConfig({
       },
       {
         text: "Blog",
-        link: "/blog/2024-10-22.md",
+        link: "/blog/markdown.md",
       },
       {
         text: "CV",
@@ -88,6 +88,15 @@ export default defineConfig({
     footer: {
       message: "some message ICP etc.",
       copyright: " © 2024-wmdboke",
+    },
+
+    // 文档的最后更新时间
+    lastUpdated: {
+      text: "Updated at",
+      formatOptions: {
+        dateStyle: "full",
+        timeStyle: "medium",
+      },
     },
   },
 });
