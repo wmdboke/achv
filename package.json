@@ -1,0 +1,20 @@
+{
+  "name": "achv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "vitepress": "^1.4.0"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
