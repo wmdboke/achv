@@ -58,8 +58,15 @@ export default defineConfig({
           items: [
             { text: "base", link: "/react/base" },
             { text: "react-index", link: "/react/react-index" },
-            { text: "nextjs", link: "/react/nextjs" },
           ],
+        },
+        {
+          text: "React-router-dom",
+          items: [{ text: "react-router", link: "/react/react-router" }],
+        },
+        {
+          text: "Nextjs",
+          items: [{ text: "nextjs", link: "/react/nextjs" }],
         },
       ],
       "/databases/": [
